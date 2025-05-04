@@ -2,7 +2,7 @@
 /// <reference types='../support' />
 
 describe('Sign in flow', () => {
-  const email = 'testuser@example.com'; // lub dynamiczny: faker.internet.email()
+  const email = 'testuser@example.com';
   const password = 'Test1234!';
 
   it('should sign in with valid credentials', () => {
